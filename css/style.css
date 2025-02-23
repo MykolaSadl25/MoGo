@@ -1,7 +1,7 @@
 :root{
     --logo-color:#95E1D3;
     --title-color:#333;
-    --title-color:#B6B6B6;
+    --text-color:#B6B6B6;
     --icon-color:#95E1D3;
     --hover-color:#F38181;
 }
@@ -17,4 +17,207 @@ body{
     margin-left: auto;
     margin-right: auto;
     outline: solid 1px #F38181;
+}
+
+.header{
+    padding-top: 24px;
+    padding-bottom: 81px;
+}
+
+.header-box{
+     display: flex;
+     align-items: center;
+}
+
+.header-logo{
+    color: var(--logo-color);
+font-family: Montserrat;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: 1.23;
+margin-right: 625px;
+}
+
+.header-list{
+    display: flex;
+    gap: 50px;
+}
+
+.header-link{
+    color: var(--logo-color);
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.21;
+}
+
+.header-link:hover{
+    color: var(--hover-color);
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.21;
+}
+
+.services{
+    text-align: center;
+}
+
+.services-title{
+    color: var(--title-color);
+font-family: "Kaushan Script";
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.45;
+margin-bottom: 20px;
+}
+
+.services-subtitle{
+    color: var(--title-color);
+font-family: Montserrat;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: 1.23;
+font-variant: all-small-caps;
+margin-bottom: 40px;
+
+}
+
+.services-line{
+    background: var(--hover-color);
+    width: 60px;
+    height: 4px;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.features{
+    padding-top: 65px;
+    padding-bottom: 100px;
+}
+
+.features-subject{
+    color: var(--title-color);
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.21;
+font-variant: small-caps;
+}
+
+.features-icon{
+    width: 37px;
+    height: 37px;
+    fill: var(--icon-color);
+
+}
+
+.features-desc{
+    color: var(--text-color);
+font-family: Roboto;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.46; 
+}
+
+.team{
+    padding-bottom: 80px;
+}
+
+.team-title{
+    color: var(--title-color);
+font-family: "Kaushan Script";
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.45;
+}
+
+.team-subtitle{
+    color: var(--title-color);
+font-family: Montserrat;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: 1.23;
+font-variant: all-small-caps;
+}
+
+.team-desc{
+    color: var(--text-color);
+text-align: center;
+font-family: Roboto;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.2;
+}
+
+.team-name{
+    color: var(--title-color);
+text-align: center;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.21;
+font-variant: all-small-caps;
+}
+
+.team-role{
+    color: var(--text-color);
+text-align: center;
+font-family: Roboto;
+font-size: 15px;
+font-style: italic;
+font-weight: 300;
+line-height: 1.2;
+}
+
+.footer-copywrite{
+    color: var(--title-color);
+text-align: center;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.14;
+}
+
+.footer-link{
+    color: var(--hover-color);
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.14;
+}
+
+.footer-email{
+    width: 230px;
+    height: 39px;
+}
+
+.footer-label{
+    width: 150px;
+    height: 40px;
+    color: #fff;
+text-align: center;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+font-variant: all-small-caps;
+background-color: var(--logo-color);
+padding: 11px 38px 12px 38px;
 }
