@@ -16,7 +16,7 @@ body{
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-    outline: solid 1px #F38181;
+    /* outline: solid 1px #F38181; */
 }
 
 .header{
@@ -88,7 +88,7 @@ margin-bottom: 40px;
 
 }
 
-.services-line{
+.line{
     background: var(--hover-color);
     width: 60px;
     height: 4px;
@@ -103,6 +103,12 @@ margin-bottom: 40px;
     padding-bottom: 100px;
 }
 
+.features-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
 .features-subject{
     color: var(--title-color);
 font-family: Montserrat;
@@ -111,13 +117,15 @@ font-style: normal;
 font-weight: 400;
 line-height: 1.21;
 font-variant: small-caps;
+margin-bottom: 20px;
 }
 
 .features-icon{
     width: 37px;
     height: 37px;
     fill: var(--icon-color);
-
+    margin-right: 19px;
+    
 }
 
 .features-desc{
@@ -127,6 +135,8 @@ font-size: 15px;
 font-style: normal;
 font-weight: 400;
 line-height: 1.46; 
+/* margin-right: 70px; */
+/* width: 310px; */
 }
 
 .team{
@@ -140,6 +150,7 @@ font-size: 24px;
 font-style: normal;
 font-weight: 400;
 line-height: 1.45;
+text-align: center;
 }
 
 .team-subtitle{
@@ -150,6 +161,9 @@ font-style: normal;
 font-weight: 700;
 line-height: 1.23;
 font-variant: all-small-caps;
+margin-top: 17px;
+margin-bottom: 36px;
+text-align: center;
 }
 
 .team-desc{
@@ -160,6 +174,19 @@ font-size: 15px;
 font-style: normal;
 font-weight: 400;
 line-height: 1.2;
+margin-top: 45px;
+margin-bottom: 27px;
+}
+
+.team-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.team-image{
+    width: 380px;
+    height: 470px;
+
 }
 
 .team-name{
@@ -171,6 +198,8 @@ font-style: normal;
 font-weight: 400;
 line-height: 1.21;
 font-variant: all-small-caps;
+margin-top: 30px;
+margin-bottom: 10px;
 }
 
 .team-role{
@@ -183,9 +212,14 @@ font-weight: 300;
 line-height: 1.2;
 }
 
+.footer{
+    border-top: solid 1px var(--text-color);
+
+}
+
 .footer-copywrite{
     color: var(--title-color);
-text-align: center;
+/* text-align: center; */
 font-family: Montserrat;
 font-size: 14px;
 font-style: normal;
@@ -194,12 +228,26 @@ line-height: 1.14;
 }
 
 .footer-link{
+    color: var(--title-color);
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.14;
+}
+
+.footer-link:hover{
     color: var(--hover-color);
 font-family: Montserrat;
 font-size: 14px;
 font-style: normal;
 font-weight: 400;
 line-height: 1.14;
+}
+
+.footer-form{
+    display: flex;
+    justify-content: flex-end;
 }
 
 .footer-email{
