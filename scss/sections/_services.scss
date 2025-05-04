@@ -1,0 +1,33 @@
+.services {
+  text-align: center;
+
+  &__title {
+    color: $title-color;
+    font-family: "Kaushan Script";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.45;
+    margin-bottom: 20px;
+  }
+
+  &__subtitle {
+    color: $title-color;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.23;
+    font-variant: all-small-caps;
+    margin-bottom: 40px;
+  }
+
+  &__line {
+    background: $hover-color;
+    width: 60px;
+    height: 4px;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
